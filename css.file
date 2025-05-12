@@ -1,0 +1,59 @@
+/* Universal selector to set basic styling for all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+/* Heading Styling */
+h1, h2 {
+  color: #2c3e50;
+  font-family: 'Georgia', serif;
+}
+
+/* Class selector for paragraphs */
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* ID selector for the image styling */
+#hero-image {
+  width: 100%;
+  height: auto;
+  border: 5px solid #3498db;
+  margin-top: 20px;
+}
+
+/* Styling for buttons */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Class selector for a specific class of elements */
+.content {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 8px;
+}
